@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+.navbar{
+    display: flex;
+    gap: 300px;
+    height: 90px;
+    background: rgb(14, 48, 14);
+    
+
+}
+
+.leftNav, .rightNav{
+    margin-top: 30px;
+    margin-left: 214px;
+    background: rgb(14, 48, 14);
+}
+
+.leftNav > span{
+    color: #D4F938;
+    background: rgb(14, 48, 14);
+}
+
+.leftNav, .rightNav > span{
+    font-size: 25px;
+    background: rgb(14, 48, 14);
+}
+
+.rightNav{
+    margin-top: 30px;
+}
+
+.rightNav > span{
+    margin-left: 34px;
+    color: #ffff;
+}
+
+.rightNav > button{
+    margin-left: 34px;
+    width: 161px;
+    height: 48px;
+    background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
+    box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.8);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.main{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.mainText{
+    width: 450px;
+    height: 270px;
+    text-align: center;
+}
+
+.mainText > span{
+    font-size: 50px;
+}
+
+#future{
+    color: #32D875;
+    text-shadow: #D4F938 5px 0 20px;
+}
+
+.mainText > p{
+    margin-top: 10px;
+}
+
+#image{
+    filter: drop-shadow(0 0 1rem #32D875);
+}
+
+.mainInfo{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainInfo > div{
+    width: 225px;
+    height: 70px;
+    border-right: 1px solid #D4F938;
+}
+
+.infoP{
+    color: rgba(235, 255, 37, 1);
+    font-size: 20px;
+}
+
+.phoneImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.trade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.tradeText > span{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.tradeText > p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#pay{
+    color:#D4F938;
+}
+
+.cards{
+    color: #ffffff;
+}
+
+.tradeCards{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+}
+
+.cards > span{
+    margin-bottom: 20px;
+}
+
+.market{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.market > span{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.expMarket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.market > p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.marketF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.marketFront > span{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.marketFront > p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.fr{
+    color: #ffffff;
+}
+
+.deposit{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    background: #ffffff;
+    width: 100%;
+    height: 620px;
+}
+.depositText{
+    background: #ffffff;
+}
+
+.depositText > span{
+    font-size: 50px;
+    background: #ffffff;
+}
+
+.depositText > p{
+    margin-top: 20px;
+    font-size: 25px;
+    background: #ffffff;
+}
+
+#dep{
+    margin-top: 25px;
+    mix-blend-mode: multiply;
+}
+
+.depImage{
+    display: flex;
+    margin-top: 25px;
+}
+
+.simple{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    background: #000000;
+}
+
+.simpleText > span{
+    font-size: 50px;
+}
+
+.best{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.bestText{
+    font-size: 50px;
+}
+
+#bestI{
+    margin-top: 60px;
+}
+
+.cardImage{
+    margin-top: 20px;
+}
+
+.earn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    background: rgba(25, 25, 29, 1);
+}
+
+.visionText{
+    margin-top: 80px;
+    background: rgba(25, 25, 29, 1);
+}
+
+.visionText > span{
+    font-size: 50px;
+    color: #ffffff;
+    background: rgba(25, 25, 29, 1);
+}
+
+#visionI{
+    margin-top: 40px;
+}
+
+.vi{
+    background: rgba(25, 25, 29, 1);
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(34, 152, 81, 1);
+    color: #ffffff;
+    text-align: center;
+}
+
+.ftext, .flist{
+    background: rgba(34, 152, 81, 1);
+    margin-top: 20px;
+}
+
+.name{
+    display: flex;
+    margin-top: 20px;
+    background: rgba(34, 152, 81, 1);
+    font-size: 25px;
+    gap: 10px
+}
+
+.name > img{
+    background: rgba(34, 152, 81, 1);
+}
+
+.name > span{
+    background: rgba(34, 152, 81, 1);
+}
+
+.flist > span{
+    background: rgba(34, 152, 81, 1);
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.ftext > p{
+    background: rgba(34, 152, 81, 1);
+    font-size: 20px;
+}
+
+.icons{
+    background: rgba(34, 152, 81, 1);
+    margin-top: 20px;
+}
+
+.icons > img{
+    background: rgba(34, 152, 81, 1);
+    margin-left: 20px;
+}
